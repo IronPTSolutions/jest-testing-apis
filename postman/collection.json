@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "7f4f9dbe-d62c-4868-ab03-f78970950294",
+		"name": "Iron Events",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Events",
+			"item": [
+				{
+					"name": "List Events",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_API_URL}}/events",
+							"host": [
+								"{{BASE_API_URL}}"
+							],
+							"path": [
+								"events"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Event",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"location\": [\n            100,\n            90\n        ],\n        \"tags\": [\n            \"Online Events\",\n            \"Online Health Events\",\n            \"#free\"\n        ],\n        \"title\": \"Health and Happiness Workshop\",\n        \"description\": \"Learn effortless techniques to manage your stress and increase your energy levels. The pandemic environment, personal problems and work pressure take a toll on our body and mind. The Art of Living brings you this free holistic and integrated workshop called the Health and Happiness which provide unique tools and techniques which help combat stress accumulated in our daily, modern life.\",\n        \"capacity\": 40,\n        \"start\": \"2021-07-21T10:00:00.000Z\",\n        \"end\": \"2021-07-21T15:00:00.000Z\",\n        \"image\": \"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F113007895%2F464627700405%2F1%2Foriginal.20200929-132616?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C115%2C1274%2C637&s=565e2e572e9e5c65f03421ff9cb75bb8\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_API_URL}}/events",
+							"host": [
+								"{{BASE_API_URL}}"
+							],
+							"path": [
+								"events"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Event",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_API_URL}}/events/604c10ecb436453a9b8a5f98",
+							"host": [
+								"{{BASE_API_URL}}"
+							],
+							"path": [
+								"events",
+								"604c10ecb436453a9b8a5f98"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Event",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"holi holi\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_API_URL}}/events/604c10ecb436453a9b8a5f96",
+							"host": [
+								"{{BASE_API_URL}}"
+							],
+							"path": [
+								"events",
+								"604c10ecb436453a9b8a5f96"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Event",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_API_URL}}/events/604c10ecb436453a9b8a5f98",
+							"host": [
+								"{{BASE_API_URL}}"
+							],
+							"path": [
+								"events",
+								"604c10ecb436453a9b8a5f98"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
