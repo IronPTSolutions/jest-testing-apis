@@ -10,6 +10,11 @@ router.get('/events/:id', events.get);
 router.delete('/events/:id', secure.isAuthenticated, events.delete);
 router.put('/events/:id', secure.isAuthenticated, events.update);
 
+router.get('/comments', comments.list);
+router.post('/comments', secure.isAuthenticated, comments.create);
+router.get('/comments/:id', comments.get);
+router.delete('/comments/:id', secure.isAuthenticated, comments.delete);
+
 router.post('/users', users.create);
 router.get('/users/:id', secure.isAuthenticated, users.get);
 router.delete('/users/:id', secure.isAuthenticated, users.delete);
