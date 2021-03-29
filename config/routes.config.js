@@ -3,6 +3,7 @@ const router = express.Router();
 const secure = require('../middlewares/secure.middleware');
 const events = require('../controllers/events.controller');
 const users = require('../controllers/users.controller');
+const comments = require('../controllers/comments.controller');
 
 router.get('/events', events.list);
 router.post('/events', secure.isAuthenticated, events.create);

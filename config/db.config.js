@@ -3,7 +3,7 @@ const MongoMemoryServer = require('mongodb-memory-server').MongoMemoryServer
 let MONGODB_URI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/iron-events';
 
 async function connect() {
-  if (process.env.NODE_ENV === 'test' || true) {
+  if (process.env.NODE_ENV === 'test') {
     const mongoServer = new MongoMemoryServer();
     MONGODB_URI = await mongoServer.getUri();
   }
