@@ -1,0 +1,62 @@
+[
+  {
+    "title": "How To Navigate A Quarter Life Crisis",
+    "description": "Learn how to navigate yourself out of a QLC and be equipped with an internal compass that will navigate you out of any future crisis. A Quarter Life Crisis (QLC) can sneak up on you anytime between ages 24 - 35. You’ve done everything ‘right’ - studied, moved out, got a job, got a relationship - but you don’t feel ‘right’. You thought you were going to be successful, happy and fulfilled by this point. Instead you feel lost, stuck, insecure, disappointed about your career, and confused. You want to run away but don’t know where. You want to change but don’t know where to even start. Worst of all, you feel like you’re the only one going through this.",
+    "capacity": 30,
+    "start": "05-17-2023 09:00:00",
+    "end": "05-17-2023 10:00:00",
+    "location": {
+      "coordinates": [
+        100,
+        90
+      ]
+    },
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F125685779%2F31424710869%2F1%2Foriginal.20210209-233636?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2466%2C1233&s=de63ea93f293308a9f07ad5cb502b1b4",
+    "tags": ["Online Events", "#career", "free"]
+  },
+  {
+    "title": "Saint Patrick’s Virtual Beer and Whiskey Festival",
+    "description": "The Virtual Beer Festival takes on Irish Twist. The Saint Patrick’s Beer and Whiskey Festival is going virtual this year and coming to your living room. Enjoy a box of 8 craft beers and 2 whiskeys curated by the fine Celtic folks of Khoury’s beer, wine, and spirits. Guests can expect flavors ranging from Irish Reds to Dark Irish Stouts along with 2 different 50ml Whiskeys including Skrewball Peanut Butter Whiskey. Stream the video where the breweries and distilleries guide you through their tastings and jam to our Irish Rock Bands.",
+    "capacity": 100,
+    "start": "04-21-2023 16:00:00",
+    "end": "04-21-2023 23:00:00",
+    "location": {
+      "coordinates": [
+        100,
+        90
+      ]
+    },
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F122071163%2F176717898304%2F1%2Foriginal.20210103-003608?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C1824%2C3648%2C1824&s=2e681b0e77aedd5ae5fbced1312e7348",
+    "tags": ["Online Events", "Online Festivals", "#beer"]
+  },
+  {
+    "title": "48 hours of Bite Sized Mindfulness",
+    "description": "Join 48 hours of Bite Sized Mindfulness with Sabina Vitacca, known as ‘The Personal Trainer for the Mind’. This course is a short-term commitment each day and can be slotted around your existing work and home commitments.",
+    "capacity": 10,
+    "start": "03-21-2023 11:00:00",
+    "end": "03-21-2023 13:00:00",
+    "location": {
+      "coordinates": [
+        100,
+        90
+      ]
+    },
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F116837057%2F321310090885%2F1%2Foriginal.20201105-075340?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=2bfd614ae913d4186ea38bf126ab3be4",
+    "tags": ["Online Events", "Online Health Events"]
+  },
+  {
+    "title": "Health and Happiness Workshop",
+    "description": "Learn effortless techniques to manage your stress and increase your energy levels. The pandemic environment, personal problems and work pressure take a toll on our body and mind. The Art of Living brings you this free holistic and integrated workshop called the Health and Happiness which provide unique tools and techniques which help combat stress accumulated in our daily, modern life.",
+    "capacity": 40,
+    "start": "07-21-2023 11:00:00",
+    "end": "07-21-2023 16:00:00",
+    "location": {
+      "coordinates": [
+        100,
+        90
+      ]
+    },
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F113007895%2F464627700405%2F1%2Foriginal.20200929-132616?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C115%2C1274%2C637&s=565e2e572e9e5c65f03421ff9cb75bb8",
+    "tags": ["Online Events", "Online Health Events", "#free"]
+  }
+]

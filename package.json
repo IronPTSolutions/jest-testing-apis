@@ -1,0 +1,34 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "description": "Iron Events API",
+  "license": "ISC",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "PORT=3001 DEBUG=api:* nodemon ./app.js",
+    "seeds": "node ./bin/seeds.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "mongodb-memory-server": "^6.9.6",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "~3.2.0",
+    "cors": "^2.8.5",
+    "debug": "^3.2.7",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "http-errors": "^1.7.2",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.19",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "totp-generator": "0.0.8"
+  }
+}
